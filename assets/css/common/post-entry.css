@@ -13,10 +13,14 @@
     align-items: center;
 }
 
+.first-entry .left {
+    width: calc(var(--main-width) + var(--gap) * 2);
+}
+
 .first-entry .avatar img {
     float: right;
     margin-right: 60px;
-    width: 40%;
+    width: 50%;
     border-radius: 50% !important;
     pointer-events: none;
     box-shadow: 0 0 0 1px var(--theme) !important;
